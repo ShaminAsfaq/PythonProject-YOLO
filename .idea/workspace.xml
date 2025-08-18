@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e739668-ca51-4d2b-85e4-48a800f0b1f7" name="Changes" comment="">
+    <list default="true" id="0e739668-ca51-4d2b-85e4-48a800f0b1f7" name="Changes" comment="Results Output">
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.ad0019ce079f881df2a18cf710ad8faf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.ad0019ce079f881df2a18cf710ad8faf.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.05076d5f08ce1ff7d1924d42f2e1a721.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.05076d5f08ce1ff7d1924d42f2e1a721.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.a1a3dc43c834cc2a479afa96d9ad354f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.a1a3dc43c834cc2a479afa96d9ad354f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.9d3f1d37b9c8cc4ecdaf3ffd84980b5f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.9d3f1d37b9c8cc4ecdaf3ffd84980b5f.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model2/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model3/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model4/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model5/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/BoxF1_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/BoxPR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/BoxP_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/BoxR_curve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/args.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/confusion_matrix_normalized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/results.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch1350.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch1351.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch1352.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/train_batch2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/val_batch0_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/val_batch0_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/val_batch1_labels.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/val_batch1_pred.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/weights/best.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralytics/runs/detect/my_custom_model6/weights/last.pt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,15 +197,28 @@
       <option name="presentableId" value="Default" />
       <updated>1755546656643</updated>
       <workItem from="1755546657920" duration="205000" />
-      <workItem from="1755546875558" duration="7718000" />
+      <workItem from="1755546875558" duration="12805000" />
     </task>
+    <task id="LOCAL-00001" summary="Results Output">
+      <option name="closed" value="true" />
+      <created>1755554699061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755554699061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Results Output" />
+    <option name="LAST_COMMIT_MESSAGE" value="Results Output" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1755554458843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1755559685293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$desktop_notification.coverage" NAME="desktop_notification Coverage Results" MODIFIED="1755550055410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$script.coverage" NAME="script Coverage Results" MODIFIED="1755549359572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

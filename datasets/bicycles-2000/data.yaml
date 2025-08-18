@@ -1,0 +1,13 @@
+train: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-2000/train/images
+val: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-2000/valid/images
+test: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-2000/test/images
+
+nc: 1
+names: ['Bicycle']
+
+roboflow:
+  workspace: thesis-2-eoeid
+  project: bicycle-3ln52
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/thesis-2-eoeid/bicycle-3ln52/dataset/3

@@ -5,24 +5,32 @@ import torch
 
 from ultralytics import YOLO
 
+data_folder = "datasets/bicycles-2000/data.yaml"
+custom_model = "ultralytics/runs/detect/my_custom_model_2000/weights/best.pt"
+
 def train():
     # Initialize a YOLOv10 model from scratch (no pretrained weights)
     model = YOLO("yolov10n.yaml")  # just defines architecture, not weights
 
     # Train on your dataset from scratch
     model.train(
-        data="datasets/bicycles/data.yaml",  # your dataset YAML
+        data=data_folder,  # your dataset YAML
         epochs=100,
-        imgsz=640,
+        imgsz=320,
         batch=8,
-        name="my_custom_model",
+        name="my_custom_model_2000",
+        project="ultralytics/runs/detect",  # where to save results
         pretrained=False  # ensures no weights are loaded
     )
 
-def predict_single():
-    model = YOLO("ultralytics/runs/detect/my_custom_model6/weights/best.pt")
+def predict_single_yolo(image_path):
     model = YOLO("yolov10n.pt")
-    results = model("bicycle.jpg")  # replace with your image path
+    results = model(image_path)  # replace with your image path
+    results[0].show()
+
+def predict_single_my_model(image_path):
+    model = YOLO(custom_model)
+    results = model(image_path)  # replace with your image path
     results[0].show()
 
 def predict(input_folder="datasets/bicycles/test", output_folder="./results"):
@@ -32,7 +40,7 @@ def predict(input_folder="datasets/bicycles/test", output_folder="./results"):
     os.makedirs(output_folder, exist_ok=True)
 
     # Load your trained model
-    model = YOLO("ultralytics/runs/detect/my_custom_model6/weights/best.pt")
+    model = YOLO(custom_model)
 
     # Make sure output folder exists
     os.makedirs(output_folder, exist_ok=True)
@@ -47,6 +55,25 @@ if __name__ == "__main__":
     print(torch.cuda.device_count())
     print(torch.cuda.get_device_name(0))
     # Optional CLI: python script.py <input_folder> <output_root> <results_name> <weights_path>
+
     # train()
+
     # predict()
-    predict_single()
+
+    # predict_single_yolo("img.png")
+    # predict_single_my_model("img.png")
+
+    # predict_single_yolo("img_1.png")
+    # predict_single_my_model("img_1.png")
+    #
+    # predict_single_yolo("img_2.png")
+    # predict_single_my_model("img_2.png")
+    #
+    # predict_single_yolo("bicycle.jpg")
+    # predict_single_my_model("bicycle.jpg")
+    #
+    # predict_single_yolo("bicycle_wbg.jpg")
+    # predict_single_my_model("bicycle_wbg.jpg")
+    #
+    # predict_single_yolo("bicycle_with_girl.jpg")
+    # predict_single_my_model("bicycle_with_girl.jpg")
