@@ -50,11 +50,36 @@ def predict(input_folder="datasets/bicycles/test", output_folder="./results"):
 
     print(f"Processed images are saved in: {os.path.join(output_folder)}")
 
+def detect_video(model_path=custom_model,
+                 input_video="short.mp4",
+                 output_folder="./video_results"):
+
+    # Make sure output folder exists
+    os.makedirs(output_folder, exist_ok=True)
+
+    # Load your trained model
+    model = YOLO(model_path)
+
+    # Run inference on video
+    # project=output_folder -> folder to save output
+    # save=True -> saves annotated video
+    results = model.predict(
+        source=input_video,
+        save=True,
+        project=output_folder,
+        name=""
+    )
+
+    print(f"Processed video saved in: {os.path.join(output_folder, 'bicycle_detection_video')}")
+
+
 if __name__ == "__main__":
     print(torch.cuda.is_available())
     print(torch.cuda.device_count())
     print(torch.cuda.get_device_name(0))
     # Optional CLI: python script.py <input_folder> <output_root> <results_name> <weights_path>
+
+    detect_video()
 
     # train()
 
