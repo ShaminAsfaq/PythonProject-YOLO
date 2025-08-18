@@ -19,6 +19,12 @@ def train():
         pretrained=False  # ensures no weights are loaded
     )
 
+def predict_single():
+    model = YOLO("ultralytics/runs/detect/my_custom_model6/weights/best.pt")
+    model = YOLO("yolov10n.pt")
+    results = model("bicycle.jpg")  # replace with your image path
+    results[0].show()
+
 def predict(input_folder="datasets/bicycles/test", output_folder="./results"):
     # Clear the output folder if it exists
     if os.path.exists(output_folder):
@@ -41,5 +47,6 @@ if __name__ == "__main__":
     print(torch.cuda.device_count())
     print(torch.cuda.get_device_name(0))
     # Optional CLI: python script.py <input_folder> <output_root> <results_name> <weights_path>
-    train()
-    # predict("images", "outputs")
+    # train()
+    # predict()
+    predict_single()
