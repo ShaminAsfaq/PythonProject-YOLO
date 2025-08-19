@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e739668-ca51-4d2b-85e4-48a800f0b1f7" name="Changes" comment="Video prediction">
-      <change afterPath="$PROJECT_DIR$/short.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video_results/predict/short.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.69e8a53f517c4be5bdda85d19e196133.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.69e8a53f517c4be5bdda85d19e196133.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.ad0019ce079f881df2a18cf710ad8faf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.ad0019ce079f881df2a18cf710ad8faf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.c4c4b468a7fb4aa5a6a09d0d299a459a.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/00f60c6648b17659_jpg.rf.c4c4b468a7fb4aa5a6a09d0d299a459a.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.05076d5f08ce1ff7d1924d42f2e1a721.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.05076d5f08ce1ff7d1924d42f2e1a721.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.869b08cd2d50b2ec18af4d181d75aff9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.869b08cd2d50b2ec18af4d181d75aff9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.a1a3dc43c834cc2a479afa96d9ad354f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/01e0a7674ccf2f70_jpg.rf.a1a3dc43c834cc2a479afa96d9ad354f.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.8b2556878510477ca59540565eade209.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.8b2556878510477ca59540565eade209.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.e33b011c276c530cc0de9a30ea36974e.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.e33b011c276c530cc0de9a30ea36974e.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.fb0761ba4ab2a480cb5dbf60e76863b6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0b29fffd38a8e7d0_jpg.rf.fb0761ba4ab2a480cb5dbf60e76863b6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0cb9a610bf9bd2f8_jpg.rf.4f135b5d2f8592f28c112e0198e269c4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0cb9a610bf9bd2f8_jpg.rf.4f135b5d2f8592f28c112e0198e269c4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0cb9a610bf9bd2f8_jpg.rf.e1b50f0b66297e6843b72f46b15401a5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0cb9a610bf9bd2f8_jpg.rf.e1b50f0b66297e6843b72f46b15401a5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.2cfdc74e575d483cca42f9e54f08bf39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.2cfdc74e575d483cca42f9e54f08bf39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.68cdc1914a3212e07b7bc9fde412d725.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.68cdc1914a3212e07b7bc9fde412d725.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.d5c3fcb36babe09b28ad84cd02b864c0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0d5225a94232c6b0_jpg.rf.d5c3fcb36babe09b28ad84cd02b864c0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.4bd14600cc7124c09bf6408bc7b7ae1d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.4bd14600cc7124c09bf6408bc7b7ae1d.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.674d814cb1b74a2e49f4b7c05a9b59ce.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.674d814cb1b74a2e49f4b7c05a9b59ce.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.9d3f1d37b9c8cc4ecdaf3ffd84980b5f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/0f0580ad0adf4dc9_jpg.rf.9d3f1d37b9c8cc4ecdaf3ffd84980b5f.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/1a7f9c1d8c2e44e1_jpg.rf.0acc1a753e2859a17af745f2779dd25f.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/1a7f9c1d8c2e44e1_jpg.rf.0acc1a753e2859a17af745f2779dd25f.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/1a7f9c1d8c2e44e1_jpg.rf.e9cb7a20946cc2768043641ddd95f19c.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/1a7f9c1d8c2e44e1_jpg.rf.e9cb7a20946cc2768043641ddd95f19c.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.dd7f7d14e8e8c2db68e68989e25a3c14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.dd7f7d14e8e8c2db68e68989e25a3c14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.e21c0c96c7450a2200073998918dd033.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.e21c0c96c7450a2200073998918dd033.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.e24c49259feec641754b59223221c8ae.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/1e6798d6dfd95b2c_jpg.rf.e24c49259feec641754b59223221c8ae.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/2b8c7806a57fd916_jpg.rf.91841a0e0a9d7477e4edb0a7ee87d6c7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/2b8c7806a57fd916_jpg.rf.91841a0e0a9d7477e4edb0a7ee87d6c7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/predict/2b8c7806a57fd916_jpg.rf.e83cddf41f1a1bbd7caeb5f988453023.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/results/predict/2b8c7806a57fd916_jpg.rf.e83cddf41f1a1bbd7caeb5f988453023.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolo.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755546656643</updated>
       <workItem from="1755546657920" duration="205000" />
-      <workItem from="1755546875558" duration="13838000" />
+      <workItem from="1755546875558" duration="14883000" />
     </task>
     <task id="LOCAL-00001" summary="Results Output">
       <option name="closed" value="true" />
@@ -207,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755559833310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Video prediction">
+      <option name="closed" value="true" />
+      <created>1755560753233</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755560753233</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +203,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Video prediction" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1755560625531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$yolo.coverage" NAME="yolo Coverage Results" MODIFIED="1755561659975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$desktop_notification.coverage" NAME="desktop_notification Coverage Results" MODIFIED="1755550055410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$script.coverage" NAME="script Coverage Results" MODIFIED="1755549359572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
