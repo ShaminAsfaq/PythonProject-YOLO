@@ -1,46 +1,5 @@
-# Ignore all image files in datasets/
-datasets/*.png
-datasets/*.jpg
-datasets/*.jpeg
-datasets/*.gif
-datasets/*.bmp
-datasets/*.tiff
-datasets/*.webp
-datasets/*.svg
+# Ignore all images in datasets/ and its subfolders
+datasets/**/*.{png,jpg,jpeg,gif,bmp,tiff,webp,svg}
 
-# If you want to ignore images in subfolders as well, add:
-datasets/**/*.png
-datasets/**/*.jpg
-datasets/**/*.jpeg
-datasets/**/*.gif
-datasets/**/*.bmp
-datasets/**/*.tiff
-datasets/**/*.webp
-datasets/**/*.svg
-
-# Ignore all video files in the entire project
-*.mp4
-*.avi
-*.mov
-*.wmv
-*.flv
-*.mkv
-*.webm
-*.mpeg
-*.mpg
-*.m4v
-*.3gp
-*.3g2
-
-video_results/**/*.mp4
-video_results/**/*.avi
-video_results/**/*.mov
-video_results/**/*.wmv
-video_results/**/*.flv
-video_results/**/*.mkv
-video_results/**/*.webm
-video_results/**/*.mpeg
-video_results/**/*.mpg
-video_results/**/*.m4v
-video_results/**/*.3gp
-video_results/**/*.3g2
+# Ignore all video files in the entire project, including subfolders
+**/*.{mp4,avi,mov,wmv,flv,mkv,webm,mpeg,mpg,m4v,3gp,3g2}
