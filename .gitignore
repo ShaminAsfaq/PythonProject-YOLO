@@ -31,3 +31,16 @@ datasets/**/*.svg
 *.m4v
 *.3gp
 *.3g2
+
+video_results/**/*.mp4
+video_results/**/*.avi
+video_results/**/*.mov
+video_results/**/*.wmv
+video_results/**/*.flv
+video_results/**/*.mkv
+video_results/**/*.webm
+video_results/**/*.mpeg
+video_results/**/*.mpg
+video_results/**/*.m4v
+video_results/**/*.3gp
+video_results/**/*.3g2
