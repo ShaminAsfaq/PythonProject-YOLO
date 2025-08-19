@@ -1,0 +1,13 @@
+train: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-5000/train/images
+val: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-5000/valid/images
+test: /home/shamin-asfaq/PycharmProjects/PythonProject/datasets/bicycles-5000/test/images
+
+nc: 1
+names: ['bicycle']
+
+roboflow:
+  workspace: my-workplace-1x5io
+  project: bicycle-hbmem
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/my-workplace-1x5io/bicycle-hbmem/dataset/2

@@ -1,12 +1,32 @@
 import os
 import shutil
 
+import cv2
 import torch
 
 from ultralytics import YOLO
 
-data_folder = "datasets/bicycles-2000/data.yaml"
-custom_model = "ultralytics/runs/detect/my_custom_model_2000/weights/best.pt"
+data_folder_150 = "datasets/bicycles/data.yaml"
+data_folder_2000 = "datasets/bicycles-2000/data.yaml"
+data_folder_5000 = "datasets/bicycles-5000/data.yaml"
+data_folder_6000 = "datasets/bicycles-6000/data.yaml"
+
+custom_model_150 = "ultralytics/runs/detect/my_custom_model/weights/best.pt"
+custom_model_2000 = "ultralytics/runs/detect/my_custom_model_2000/weights/best.pt"
+PRETRAINED_custom_model_2000 = "ultralytics/runs/detect/PRETRAINED_my_custom_model_2000/weights/best.pt"
+custom_model_5000 = "ultralytics/runs/detect/my_custom_model_5000/weights/best.pt"
+custom_model_6000 = "ultralytics/runs/detect/my_custom_model_6000/weights/best.pt"
+
+model_name_150 = "my_custom_model"
+model_name_2000 = "my_custom_model_2000"
+model_name_5000 = "my_custom_model_5000"
+model_name_6000 = "my_custom_model_6000"
+
+# ONLY CHANGE THIS PART TO SWITCH BETWEEN DATASETS AND MODELS
+data_folder = data_folder_6000
+custom_model = custom_model_6000
+model_name = model_name_6000
+predict_folder = "datasets/bicycles-6000/test/images"
 
 def train():
     # Initialize a YOLOv10 model from scratch (no pretrained weights)
@@ -15,12 +35,13 @@ def train():
     # Train on your dataset from scratch
     model.train(
         data=data_folder,  # your dataset YAML
-        epochs=100,
+        epochs=150,
         imgsz=320,
-        batch=8,
-        name="my_custom_model_2000",
+        patience=20,
+        batch=-1,
+        name='PRETRAINED_' + model_name,  # name of the run
         project="ultralytics/runs/detect",  # where to save results
-        pretrained=False  # ensures no weights are loaded
+        pretrained=True  # ensures no weights are loaded
     )
 
 def predict_single_yolo(image_path):
@@ -33,7 +54,7 @@ def predict_single_my_model(image_path):
     results = model(image_path)  # replace with your image path
     results[0].show()
 
-def predict(input_folder="datasets/bicycles/test", output_folder="./results"):
+def predict(input_folder=predict_folder, output_folder="./results"):
     # Clear the output folder if it exists
     if os.path.exists(output_folder):
         shutil.rmtree(output_folder)
@@ -69,7 +90,7 @@ def detect_video(input_video="short.mp4"):
         name=""
     )
 
-    print(f"Processed video saved in: {os.path.join(output_folder, 'bicycle_detection_video')}")
+    print(f"Processed video saved in: {os.path.join(output_folder, f'bicycle_detection_video {model_name}')}")
 
 
 if __name__ == "__main__":
@@ -79,7 +100,7 @@ if __name__ == "__main__":
     # Optional CLI: python script.py <input_folder> <output_root> <results_name> <weights_path>
 
     # detect_video("short.mp4")
-    detect_video("bike.mp4")
+    # detect_video("bicycle.mp4")
 
     # train()
 
