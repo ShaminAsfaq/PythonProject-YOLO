@@ -123,3 +123,4 @@ if __name__ == "__main__":
     #
     # predict_single_yolo("bicycle_with_girl.jpg")
     # predict_single_my_model("bicycle_with_girl.jpg")
+
